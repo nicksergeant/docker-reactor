@@ -5,13 +5,18 @@
   <meta charset="UTF-8">
   <title>docker-reacter: Personal Docker / React playground.</title>
 
-  <script type="text/javascript" src="/static/vendor/react/react.min.js"></script>
-  <script type="text/javascript" src="/static/app/app.js"></script>
+  <script type="text/javascript" src="/static/bundle.min.js"></script>
 
 </head>
 <body>
-  
 
+  <div id="example"></div>
+  <script type="text/jsx">
+    React.render(
+      <h1>Hello, world!</h1>,
+      document.getElementById('example')
+    );
+  </script>
 
 </body>
 </html>
