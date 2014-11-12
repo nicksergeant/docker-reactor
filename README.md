@@ -3,21 +3,21 @@ docker-reactor
 
 Personal Docker / React playground.
 
-### Run from the build:
+### Run from build:
 
 - `docker run -p 8888:8888 nicksergeant/docker-react`
 
-### Run it locally:
+### Run from source:
 
 1. `git clone https://github.com/nicksergeant/docker-reactor.git`
 2. `cd docker-reacter`
 3. `node server`
 
-### Compile it:
+### Compile:
 
-- `make bundle`
+- `make`
 
-### Watch it:
+### Watch:
 
 1. `npm install -g watch`
-2. `watch 'make bundle' static/app`
+2. `watch 'make' static/app`
