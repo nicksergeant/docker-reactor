@@ -5,7 +5,7 @@ Personal Docker / React playground.
 
 ### Run from build:
 
-- `docker run -p 8888:8888 nicksergeant/docker-react`
+1. `docker run -p 8888:8888 nicksergeant/docker-react`
 
 ### Run from source:
 
@@ -15,7 +15,7 @@ Personal Docker / React playground.
 
 ### Compile:
 
-- `make`
+1. `make`
 
 ### Watch:
 
