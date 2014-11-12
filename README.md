@@ -11,7 +11,8 @@ Personal Docker / React playground.
 
 1. `git clone https://github.com/nicksergeant/docker-reactor.git`
 2. `cd docker-reacter`
-3. `node server`
+3. `npm install`
+4. `node server`
 
 ### Compile:
 
