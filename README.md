@@ -15,7 +15,8 @@ Personal Docker / React playground.
 
 ### Compile:
 
-1. `make`
+1. `npm install -g browserify jsmin react-tools`
+2. `make`
 
 ### Watch:
 
