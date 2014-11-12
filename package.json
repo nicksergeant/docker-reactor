@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/nicksergeant/docker-reactor",
   "dependencies": {
+    "compression": "^1.2.0",
+    "ejs": "^1.0.0",
     "express": "^4.10.2"
   }
 }
