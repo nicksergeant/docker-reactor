@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hey thar.');
+  res.send('Testing Hub auto-build.');
 });
 
 app.listen(8888);
