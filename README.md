@@ -19,5 +19,5 @@ Personal Docker / React playground.
 
 ### Watch:
 
-1. `npm install -g watch`
-2. `watch 'make' static/app`
+1. `brew install fswatch`
+2. `make watch`
