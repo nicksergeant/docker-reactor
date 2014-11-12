@@ -1,4 +1,4 @@
-docker-reacter
+docker-reactor
 ==============
 
 Personal Docker / React playground.
