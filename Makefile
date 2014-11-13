@@ -8,6 +8,6 @@ react:
 	node_modules/jsmin/bin/jsmin static/dist/bundle.js > static/dist/bundle.min.js
 
 watch:
-	fswatch -o --latency=0.1 static/src | xargs -n1 -I{all} make backbone
+	fswatch -o --latency=0.1 static/src | xargs -n1 -I{all} make backbone react
 
-.PHONY: all watch
+.PHONY: backbone react watch
