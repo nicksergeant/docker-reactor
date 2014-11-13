@@ -8,9 +8,16 @@
 </head>
 <body>
 
-  <div id="items-container"></div>
+  <div id="items-container">
+    <ul class="item-list">
+      {{ items.forEach(function(item) { }}
+        <li class="item">{{= item.get('value') }}</li>
+      {{ }) }}
+    </ul>
+  </div>
 
-  <script type="text/javascript" src="/static/dist/bundle.min.js?<%= bundleModifiedTime %>"></script>
+  <!-- <script type="text/javascript" src="/static/dist/bundle.min.js?<%= bundleModifiedTime %>"></script> -->
+  <script type="text/javascript" src="/static/dist/bundle-backbone.min.js"></script>
 
 </body>
 </html>
